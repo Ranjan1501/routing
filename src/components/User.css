@@ -1,0 +1,37 @@
+
+
+.userContainer {
+    height: 500px;
+  background-color: #7c99ac;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+.user {
+  margin-top: .2%;
+  width: 95%;
+  display: flex;
+  grid-gap: 2%;
+  justify-content: space-around;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  grid-gap: 3%;
+  background-color: #072227;
+  padding: 1%;
+}
+.Link {
+  text-decoration: none;
+  color: white;
+  margin-right: 2%;
+}
+.Link:hover {
+  color: #4fbdba;
+}
+.login {
+  margin-top: 0%;
+}
